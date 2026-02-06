@@ -18,7 +18,6 @@ export function BookingWizard() {
         timeSlot: null,
         name: '',
         phone: '',
-        email: '',
         message: ''
     });
 

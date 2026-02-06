@@ -38,7 +38,7 @@ export function ConfirmationStep({ data }: Props) {
                 </div>
             </div>
 
-            <p className={styles.subtext}>We have sent a confirmation email to {data.email}. Our team will contact you shortly.</p>
+            <p className={styles.subtext}>Our team will contact you shortly.</p>
 
             <div className={styles.actions}>
                 <Link href="/">

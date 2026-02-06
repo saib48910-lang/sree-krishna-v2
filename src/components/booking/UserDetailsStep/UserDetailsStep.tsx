@@ -15,7 +15,7 @@ interface Props {
 
 export function UserDetailsStep({ data, updateData, onNext, onBack }: Props) {
 
-    const isValid = data.name && data.phone && data.email;
+    const isValid = data.name && data.phone;
 
     return (
         <div className={styles.container}>
@@ -43,16 +43,7 @@ export function UserDetailsStep({ data, updateData, onNext, onBack }: Props) {
                 />
             </div>
 
-            <div className={styles.formGroup}>
-                <label className={styles.label}>Email Address</label>
-                <input
-                    type="email"
-                    className={styles.input}
-                    placeholder="john@example.com"
-                    value={data.email}
-                    onChange={(e) => updateData({ email: e.target.value })}
-                />
-            </div>
+
 
             <div className={styles.formGroup}>
                 <label className={styles.label}>Message (Optional)</label>
