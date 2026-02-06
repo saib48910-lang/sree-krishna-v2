@@ -37,7 +37,7 @@ export function UserDetailsStep({ data, updateData, onNext, onBack }: Props) {
                 <input
                     type="tel"
                     className={styles.input}
-                    placeholder="+91 98765 43210"
+                    placeholder="+91 9494444818"
                     value={data.phone}
                     onChange={(e) => updateData({ phone: e.target.value })}
                 />

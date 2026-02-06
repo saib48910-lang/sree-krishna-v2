@@ -16,7 +16,9 @@ export function ContactInfo() {
                         </div>
                         <div>
                             <h3 className={styles.cardTitle}>Call Us</h3>
-                            <p className={styles.cardVal}>+91 98765 43210</p>
+                            <p className={styles.cardVal}>
+                                <a href="tel:+919494444818" style={{ color: 'inherit', textDecoration: 'none' }}>+91 9494444818</a>
+                            </p>
                         </div>
                     </div>
 
@@ -26,7 +28,9 @@ export function ContactInfo() {
                         </div>
                         <div>
                             <h3 className={styles.cardTitle}>WhatsApp</h3>
-                            <p className={styles.cardVal}>Chat Now</p>
+                            <p className={styles.cardVal}>
+                                <a href="https://wa.me/919494444818" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>Chat Now</a>
+                            </p>
                         </div>
                     </div>
 
@@ -36,7 +40,9 @@ export function ContactInfo() {
                         </div>
                         <div>
                             <h3 className={styles.cardTitle}>Email Us</h3>
-                            <p className={styles.cardVal}>hello@sreekrishna.com</p>
+                            <p className={styles.cardVal}>
+                                <a href="mailto:sreekrishna.housingprojects@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>sreekrishna.housingprojects@gmail.com</a>
+                            </p>
                         </div>
                     </div>
                 </div>
