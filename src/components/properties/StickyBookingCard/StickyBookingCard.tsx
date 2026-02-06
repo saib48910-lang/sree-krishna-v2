@@ -20,12 +20,12 @@ export function StickyBookingCard() {
             </div>
 
             <div className={styles.contactMethods}>
-                <button className={styles.contactBtn}>
+                <a href="tel:+919494444818" className={styles.contactBtn} style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <Phone size={18} /> Call Now
-                </button>
-                <button className={styles.contactBtn}>
+                </a>
+                <a href="https://wa.me/919494444818" target="_blank" rel="noopener noreferrer" className={styles.contactBtn} style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <MessageCircle size={18} /> WhatsApp
-                </button>
+                </a>
             </div>
 
             <p className={styles.disclaimer}>
